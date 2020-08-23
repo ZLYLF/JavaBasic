@@ -1,0 +1,44 @@
+	界面开发 - 登录界面
+	
+	包： package  -- 一个项目中给代码分类 
+		系统库：
+		java.awt --  早期的界面开发包   保留使用元素类
+		javax.swing -- 	升级之后的界面开发包  -- 可视化组件
+
+	根据功能分类：
+		容器：顶级容器 - 窗体
+				
+		组件：按钮 输入框  选择框 标签（文字 图片 ）...
+		元素: 尺寸 颜色 字体 
+			布局： 组件的摆放规则 
+			流式布局: 根据顺序，从左至右依次摆放，摆不下的切换第二行，且居中
+
+	步骤
+		一、在类之前引入所需要的类   import javax.swing.JFrame;
+		二、创建一个窗体类的对象 
+		三、设置这个窗体对象的属性 
+		四、设置组件摆放所需要的布局管理器 
+		五、加组件
+			1、创建组件对象 
+				JButton btn = new JButton();
+				
+			2、设置组件对象属性（非必要）
+				btn.set...
+			3、加载到窗体上
+				lf.add(btn);
+	
+登录界面用到的API类
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+

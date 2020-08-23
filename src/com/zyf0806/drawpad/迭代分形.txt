@@ -1,0 +1,23 @@
+
+	
+   http://paulbourke.net/fractals/ifs/
+   
+  		double x = 0, y = 0;
+		double a = -1.8, b = -2.0, c = -0.5, d = -0.9;
+		
+		Color color = new Color(0,255,0,160);
+		g.setColor(color);
+		
+		for (int i = 0; i < 10000; i++) {
+		double tempx = Math.sin(a * y) + c * Math.cos(a * x);
+		double tempy = Math.sin(b * x) + d * Math.cos(b * y);
+		x = tempx;
+		y = tempy;
+		int px = (int) (tempx * 100 + x1);
+		int py = (int) (tempy * 100 + y1);
+		
+		g.drawLine(px, py, px, py);
+//		g.fillOval(px, py, 3, 3);
+		
+		}
+   

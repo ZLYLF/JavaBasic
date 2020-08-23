@@ -1,0 +1,41 @@
+	
+	
+	C  VB  Java sql C++	 
+	
+	Java : 类与对象   继承  接口   界面开发  （ PK 游戏  登录程序）    
+	项目驱动  结果导向 
+		
+		1.5-3万行代码 
+		创意画图板：（基础功能,分形图形，图形图像处理）
+				基本数据结构的使用，基本算法
+		棋类游戏： （五子棋（输赢算法  AI）  	象棋 ）二维数组  HashMap 键值对
+		
+		数据结构加强： 压缩软件   哈夫曼树  链表 队列  Java集合框架（List set Map）	
+		
+		多线程：多任务执行  ，并发  ，协同  ，锁 ， 线程池  
+				生产者消费者模型   ，线程游戏  
+		for(){i++ } for(){j++  }
+		
+		通信阶段：类QQ/微信    通信原理    通信协议  
+				自定义控制协议（文字图片 视频传输）   通信服务器  私聊 群聊 转发  
+	
+	JVM java虚拟机   windows  linux(macos ios Android )
+		内存模型 	 垃圾回收机制  类加载机制 
+	
+	
+	Java扩展方向：
+		Android开发 : java 	 ios swift 
+		
+		Web开发: java php  .net   (前端：html css js  数据库：sql  web服务器：tomcat  weblogic 	后台:	MVC - spring框架 	  )
+		
+		分布式开发：
+				
+				应用A - N		云计算	
+			
+			分布式系统Hadoop 分布式文件系统 
+			
+			服务器A  -  N(集群)
+	
+	
+	
+	

@@ -1,0 +1,29 @@
+	布局： 流式布局   
+		JFrame 默认布局 - 边框布局 
+		JPanel 面板  - 流式布局 
+	菜单：
+		1、菜单条（JMenuBar） - 菜单容器
+			setJMenuBar 
+		2、菜单（JMenu）
+			add 菜单条上 
+				菜单中也可以添加子菜单 ，子菜单再添加菜单项
+				
+		3、菜单项（JmenuItem）
+			add 到菜单上
+			
+	4、面板 （JPanel） 容器  
+		
+	
+	5、选项卡（JTabbedPane）
+	
+		addTab("选项卡标题", 面板对象);
+		
+	
+	6、布局
+		JFrame 默认布局 - 边框布局 设置位置：	jf.add(jtabpanel, BorderLayout.NORTH); 
+		JPanel 面板  - 流式布局 
+		null布局   组件设置方位 ：setBouns(x,y,w,h);
+		 
+		
+		
+		

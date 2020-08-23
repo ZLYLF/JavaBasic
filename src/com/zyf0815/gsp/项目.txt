@@ -1,0 +1,65 @@
+
+	0 基础 
+	
+	Java C C++ python 共通的地方 
+	入门语言 ：
+	Java  环境 
+	Java 项目目录结构
+		File -> new ->project ->Java->JavaProject ->next->new Name->finish
+	JRE 系统库
+	src -> 自己写的代码都存在这里 
+	 -> 右键 ->new Class ->Class Name - Java的基本代码文件 
+	 	类 -  类名 （命名格式 ： 首字母大写，其后的每个单词首字母大写- 驼峰命名法）
+		ps：	MyFirstJavaClass
+	程序：
+		运行程序 
+	程序入口 ：运行代码的时候会自动从这里开始执行 
+		public static void main(String[] args){
+			
+		}
+	输出语句：
+		System.out.print("HelloWorld");
+		// 
+	
+	控制位置要求 ： 类{ 程序入口{ 执行的代码 }  }
+	
+	基础知识:
+		1、变量： x=1.0;  x+10 = 11.0;
+			格式： 变量的类型   变量名字
+		
+			数字：	整数 int 小数 double 
+					int x = 10;
+					double d=1.2;
+					
+			字符： 字符串    - 一串字符 	
+					String name="关顺平";
+		
+	
+		2、循环条件语句 
+			for(定义一个数字变量给一个初始值;    满足的条件       ; 改变变量，变量改变的步长 ){
+			// 需要循环执行的代码
+			}
+	
+		3、判断条件
+			if(){
+			// 满足执行的代码
+			} else { 
+			// 不满足执行的代码
+			}
+
+// 练习： 打印三角形 
+	换行 
+	循环
+
+
+
+
+
+
+
+
+
+
+
+
+

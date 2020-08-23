@@ -1,0 +1,40 @@
+
+
+http://paulbourke.net/fractals/ifs/
+void drawMyIfs(int mouseX, int mouseY) {
+
+		double x = 0, y = 0;
+		double a = -2, b = -2, c = -1.2, d = 2;
+		g.setColor(Color.BLACK);
+		g.fillRect(0, 0, 800, 600);
+		
+		for (int i = 0; i < 20000; i++) {
+
+			double tempx = Math.sin(a * y) - Math.cos(b * x);
+			double tempy = Math.sin(c * x) - Math.cos(d * y);
+
+			x = tempx;
+			y = tempy;
+
+			int px = (int) (tempx * 100 + mouseX);
+			int py = (int) (tempy * 100 + mouseY);
+			g.setColor(new Color(0, i%255, 0));
+			g.drawLine(px, py, px, py);
+			System.out.println(y + "=y x=" + x);
+		}
+
+	}
+	public void drawIfsM() {
+		Random ran=new Random();
+		double a[] = { 0.1400, 0.4300, 0.4500, 0.4900 };
+		double b[] = { 0.0100, 0.5200, -0.4900, 0.0000 };
+		double c[] = { 0.0000, -0.4500, 0.4700, 0.0000 };
+		double d[] = { 0.5100, 0.5000, 0.4700, 0.5100 };
+		double e[] = { -0.0800, 1.4900, -1.6200, 0.0200 };
+		double f[] = { -1.3100, -0.7500, -0.7400, 1.6200 };
+		
+		for(int i =0; i<5000; i++) {
+			ran.nextInt(4);//0 1 2 3
+			
+			
+		}

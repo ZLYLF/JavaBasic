@@ -1,0 +1,27 @@
+	画图板
+		1、界面 	- JFrame -对象  drawFrame
+		2、绘制的工具 - Graphics	图形   GTX2060  	显卡
+			从需要绘制的界面上获取 -  画布/笔 
+			Graphics g =  drawFrame.getGraphics(); 
+		3、鼠标监听器 - MouseListener  
+			1、创建一个类实现接口  implements
+			2、实现接口所有的抽象方法 
+			drawFrame.addMouseListener();
+			
+		4、鼠标事件类	 MouseEvent   
+		      动作事件类  ActionEvent	
+		      	事件源对象 - e  事件发生时所生成的一个信息对象 
+				获取鼠标操作时的坐标 （x,y）
+	
+	
+	// 绘制一个立方体 （x y dy dx ）
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

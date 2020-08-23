@@ -1,0 +1,41 @@
+
+	基础：C 汇编    C++		
+		面向过程             面向对象 
+	C 底层  	 应用 A 	C++ Java 
+	
+		Java :  类与对象   继承  接口  界面开发    0-9
+	 	项目驱动：	实习  面试  
+	 	
+	 	创意画图板： 基础图形  分形  图形图像处理  Color(RGB);
+	 	棋类游戏： 五子棋  AI人机五子棋 	  二维数组  HashMap  二叉树  
+	 	数据结构扩展： 压缩软件  编码   
+	 				Java集合框架 （List set Map）
+	 				链表  队列   树   
+	 	多线程阶段： 程序的多任务同时执行  并发  同步 
+	 				多线程游戏 ： 飞机大战    
+	 				生产者消费者模型    线程池 	锁      
+	 			
+		通信阶段：	TCP UDP协议 	 自定义控制协议   通信服务器  （私聊 群聊  转发 文件 图片 文字 视频）  
+			 		类QQ/微信 软件   联网游戏 		
+	
+
+	Java扩展： JVM  ---  Windows  Linux (Android  ios  macos  )
+	
+		Web开发（前端： html css  js   数据库： sql   web服务器 ： tomcat weblogic  后台：web基本实现  框架：SpringBoot springMVC  手写基本框架      ）
+		
+		后端开发 	(业务部门  音频开发  图像处理开发  ....   )
+		
+		AndRoid开发  java 
+		
+		分布式开发  (云计算 )  服务器 集群管理   Hadoop  
+		
+		
+		
+
+
+
+
+
+
+
+

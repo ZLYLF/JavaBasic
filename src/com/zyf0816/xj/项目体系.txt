@@ -1,0 +1,39 @@
+
+	基础： C++  Java  C  Python 
+
+	Java: 类与对象  - 继承 - 接口     -  界面开发  
+			
+	基础项目阶段
+		
+		算法	数据结构  （图形图像处理   压缩软件 ）
+		
+		链表  队列  二叉树  Java集合（List Set  Map） 
+		多线程:   线程基本知识， 高并发  同步锁  线程池   线程模型  线程源码
+				多线程游戏： 飞机大战  小游戏 
+		通信：通信原理   协议   自定义控制协议 通信服务器 
+				私聊 群聊 文字 图片 游戏数据 加密 解密 
+
+	JVM  -  Linux（Android   CenterOS ... ）  Windows
+			类加载机制  内存机制   垃圾回收  
+			反射   动态装载   设计模式 
+			
+	扩展方向
+		Web开发：（前端：html css js 数据库： sql   web服务器： tomcat weblogic 后端： Java Springboot SpringMVC   ） 
+		安卓开发： Java   
+		分布式开发： 云计算 
+			应用
+		
+		分布式文件系统 
+		
+		服务器A ..... 服务器N 
+		
+		
+			
+			
+		
+
+
+
+
+
+

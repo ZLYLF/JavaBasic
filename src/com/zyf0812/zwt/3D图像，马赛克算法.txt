@@ -1,0 +1,26 @@
+
+	类： public class 类名{ }
+	属性： 访问修饰符  属性类型 属性变量名 ； String name;
+	方法：  访问修饰符 返回值类型 方法名（参数类型 参数变量名）{ } 
+			public void test(){  }
+	类创建对象：
+	
+		类名   对象变量名 = new 类名（）；
+				
+	主方法：每次只能启动一个主方法 
+		public static void main(String[] args){
+			// 输出语句
+			System.out.print("")；
+			System.out.println("")；//换行 
+		}
+
+
+
+
+
+
+
+
+
+
+
